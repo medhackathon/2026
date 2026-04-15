@@ -77,11 +77,22 @@ July 27-31, 2026
   - Wrap-up session
   - Next-step planning
 
-## Venue and accommodation
+## Venue
 
-- Singapore
-  - Venue details will be announced.
-  - Accommodation details will be announced.
+**D'MARQUEE at Downtown East**
+1 Pasir Ris Close, Singapore 519599
+
+The meeting takes place at D'MARQUEE in Downtown East, Pasir Ris, Singapore. The venue is locally hosted by PRECISE (Precision Health Research, Singapore). Attendee check-in is at the venue reception on Monday 27 July from 12:00.
+
+### Getting there
+
+- **MRT + bus (about 40 minutes from Changi Airport):** take the East–West Line to Pasir Ris (EW1), then bus 354 (or 3, 5, 6, 12, 17, 21, 89, or 358 East Loop) to the Downtown East stops.
+- **Free Downtown East shuttle** runs between Pasir Ris MRT and the Downtown East Begonia Pick-up Point daily from 11:00 to 22:00, at about 15-minute intervals.
+- **Taxi or Grab** from Changi Airport takes about 15 to 20 minutes.
+
+## Accommodation
+
+D'Resort, co-located with D'MARQUEE at Downtown East, is the on-site option. Confirmed participants receive a list of alternative hotels nearby, with indicative travel times, in the registration confirmation email. Participants book their own rooms.
 
 ## Who should join
 
@@ -100,6 +111,16 @@ Please join our google group at [MedHackathon Asia](https://groups.google.com/u/
 This page was updated from the shared MedHackathon report document currently used for 2026 planning:
 
 - [Planning document](https://docs.google.com/document/d/1zr-nvOyeCDnzhAfAfFxBUNGveHDTGT1NKqKqPHJLoyg/edit?tab=t.0#heading=h.rvpio5ah8e40)
+
+---
+
+<p align="center">
+  <a href="https://www.npm.sg/">
+    <img width="180" src="images/PRECISE_logo.png" alt="PRECISE — Precision Health Research, Singapore">
+  </a>
+</p>
+
+<p align="center"><sub>MedHackathon Asia 2026 is locally hosted by <a href="https://www.npm.sg/">PRECISE (Precision Health Research, Singapore)</a>.</sub></p>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
