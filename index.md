@@ -116,12 +116,6 @@ If you are actively engaged in Asian biobank, genomic, or precision-medicine col
 
 Please join our google group at [MedHackathon Asia](https://groups.google.com/u/4/g/medhackathon-asia) or email the organizers at [admin-medhackathon-asia@googlegroups.com](mailto:admin-medhackathon-asia@googlegroups.com).
 
-## Source note
-
-This page was updated from the shared MedHackathon report document currently used for 2026 planning:
-
-- [Planning document](https://docs.google.com/document/d/1zr-nvOyeCDnzhAfAfFxBUNGveHDTGT1NKqKqPHJLoyg/edit?tab=t.0#heading=h.rvpio5ah8e40)
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     var elementToRemove = document.querySelector('h1 a[href="https://medhackathon.github.io/2026/"]');
