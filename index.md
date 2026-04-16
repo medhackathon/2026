@@ -7,6 +7,14 @@
 
 MedHackathon Asia 2026 will be held in Singapore from July 27 to July 31, 2026.
 
+<p align="center">
+  <a href="https://www.npm.sg/">
+    <img width="160" src="images/PRECISE_logo.png" alt="PRECISE — Precision Health Research, Singapore">
+  </a>
+</p>
+
+<p align="center"><sub>Supported by <a href="https://www.npm.sg/">PRECISE — Precision Health Research, Singapore</a>.</sub></p>
+
 ## Overview
 
 MedHackathon Asia is a regional meeting for researchers, clinicians, bioinformaticians, data stewards, and precision medicine leaders working to strengthen genomic and health data collaboration across Asia.
@@ -113,16 +121,6 @@ Please join our google group at [MedHackathon Asia](https://groups.google.com/u/
 This page was updated from the shared MedHackathon report document currently used for 2026 planning:
 
 - [Planning document](https://docs.google.com/document/d/1zr-nvOyeCDnzhAfAfFxBUNGveHDTGT1NKqKqPHJLoyg/edit?tab=t.0#heading=h.rvpio5ah8e40)
-
----
-
-<p align="center">
-  <a href="https://www.npm.sg/">
-    <img width="180" src="images/PRECISE_logo.png" alt="PRECISE — Precision Health Research, Singapore">
-  </a>
-</p>
-
-<p align="center"><sub>MedHackathon Asia 2026 is locally hosted by <a href="https://www.npm.sg/">PRECISE (Precision Health Research, Singapore)</a>.</sub></p>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
