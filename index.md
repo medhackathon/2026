@@ -38,6 +38,7 @@ li::marker { color: #2D7D6E; }
   text-align: center;
   margin: 20px 0 30px;
 }
+.hero-banner .hero-logo { margin-bottom: 12px; }
 .hero-banner h1 { color: #FDF8F4 !important; font-size: 2.6em !important; margin-bottom: 8px !important; border-bottom: none !important; }
 .hero-banner .hero-subtitle { font-size: 1.15em; opacity: 0.92; margin-bottom: 16px; font-family: 'Atkinson Hyperlegible', sans-serif; }
 .hero-banner .hero-date {
@@ -111,6 +112,7 @@ li::marker { color: #2D7D6E; }
 @media (max-width: 768px) {
   .hero-banner { padding: 28px 20px 24px; }
   .hero-banner h1 { font-size: 1.8em !important; }
+  .hero-banner .hero-logo img { width: 120px !important; }
   .float-right, .float-left { float: none; width: 100%; margin: 16px 0; }
   .section-highlight { padding: 18px 20px; }
 }
@@ -119,37 +121,32 @@ li::marker { color: #2D7D6E; }
 .container, .container-lg { max-width: 860px !important; }
 </style>
 
-<!-- Logo -->
-<p align="center">
-  <img width="180" src="images/MedHackathon_logo.png" alt="MedHackathon Asia logo">
-</p>
-
-<!-- Hero -->
+<!-- Hero with logo inside -->
 <div class="hero-banner">
+  <div class="hero-logo"><img width="160" src="images/MedHackathon_logo.png" alt="MedHackathon Asia logo"></div>
   <h1>MedHackathon Asia 2026</h1>
   <div class="hero-subtitle">Advancing genomic and health data collaboration across Asia</div>
   <div class="hero-date">July 27 &ndash; 31, 2026 &middot; Singapore</div>
 </div>
 
-<!-- Supporter -->
+<!-- Supporter — logo at 2x size -->
 <div class="supporter-badge">
   <a href="https://www.npm.sg/">
-    <img width="140" src="images/PRECISE_logo.png" alt="PRECISE — Precision Health Research, Singapore">
+    <img width="280" src="images/PRECISE_logo.png" alt="PRECISE — Precision Health Research, Singapore">
   </a>
   <br>
   <sub>Supported by <a href="https://www.npm.sg/">PRECISE — Precision Health Research, Singapore</a>.</sub>
 </div>
-
-<!-- Banner illustration -->
-<p align="center">
-<img src="images/collaboration.jpg" style="width: 100%; max-width: 900px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);" alt="Paper-cut illustration of researchers collaborating around a table">
-</p>
 
 ## Overview
 
 MedHackathon Asia is a regional meeting for researchers, clinicians, bioinformaticians, data stewards, and precision medicine leaders working to strengthen genomic and health data collaboration across Asia.
 
 The 2026 edition builds on the discussions and project outcomes documented after MedHackathon Asia 2025. The shared objective is to unlock the scientific and clinical value of Asian genomic diversity through practical collaboration on biobanks, data standards, computational workflows, and responsible governance.
+
+<p align="center">
+<img src="images/collaboration.jpg" style="width: 100%; max-width: 900px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);" alt="Paper-cut illustration of researchers collaborating around a table">
+</p>
 
 ## Why this matters
 
