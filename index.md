@@ -15,6 +15,10 @@ MedHackathon Asia 2026 will be held in Singapore from July 27 to July 31, 2026.
 
 <p align="center"><sub>Supported by <a href="https://www.npm.sg/">PRECISE — Precision Health Research, Singapore</a>.</sub></p>
 
+<p align="center">
+<img src="images/collaboration.jpg" style="width: 100%; max-width: 900px; border-radius: 8px;" alt="Paper-cut illustration of researchers collaborating around a table">
+</p>
+
 ## Overview
 
 MedHackathon Asia is a regional meeting for researchers, clinicians, bioinformaticians, data stewards, and precision medicine leaders working to strengthen genomic and health data collaboration across Asia.
@@ -26,6 +30,9 @@ The 2026 edition builds on the discussions and project outcomes documented after
 Asia holds the world's largest and most diverse population base, but genomic resources across the region remain fragmented. National initiatives have grown rapidly, yet cross-border collaboration is still limited by differences in metadata standards, access models, privacy regulation, consent practices, and technical infrastructure.
 
 MedHackathon Asia provides a working forum to address these gaps. The aim is not only to discuss policy, but to advance concrete, reusable frameworks for data discovery, secure analysis, and population-aware genomic interpretation.
+
+<div style="display: flex; align-items: flex-start; gap: 30px; flex-wrap: wrap; margin: 30px 0;">
+<div style="flex: 1; min-width: 300px;" markdown="1">
 
 ## 2026 focus areas
 
@@ -52,6 +59,12 @@ The report highlights a set of ongoing and emerging workstreams that inform the 
 - Ethical, legal, and social issues in genomic data sharing
 - Federated aggregated variant browsing across Asian cohorts
 - Imputation pipelines and servers for Thai, Japanese, and broader Asian reference panels
+
+</div>
+<div style="flex: 0 0 40%; min-width: 280px; padding-top: 30px;">
+<img src="images/hacking.jpg" style="width: 100%; border-radius: 8px;" alt="Paper-cut illustration of researchers working together on laptops">
+</div>
+</div>
 
 ## Expected outcomes
 
@@ -85,6 +98,12 @@ July 27-31, 2026
   - Wrap-up session
   - Next-step planning
 
+<div style="display: flex; align-items: flex-start; gap: 30px; flex-wrap: wrap; margin: 30px 0;">
+<div style="flex: 0 0 35%; min-width: 260px;">
+<img src="images/tea-break.jpg" style="width: 100%; border-radius: 8px;" alt="Paper-cut illustration of a tea break with lanterns and kueh">
+</div>
+<div style="flex: 1; min-width: 300px;" markdown="1">
+
 ## Venue
 
 **D'MARQUEE at Downtown East**
@@ -102,6 +121,9 @@ The meeting takes place at D'MARQUEE in Downtown East, Pasir Ris, Singapore. The
 
 D'Resort, co-located with D'MARQUEE at Downtown East, is the on-site option. Confirmed participants receive a list of alternative hotels nearby, with indicative travel times, in the registration confirmation email. Participants book their own rooms.
 
+</div>
+</div>
+
 ## Who should join
 
 This event is intended for participants working in human genetics, medical informatics, biobanking, clinical genomics, bioinformatics, data governance, and related areas. We welcome researchers and practitioners interested in building shared infrastructure, standards, and collaborative projects for precision medicine in Asia.
@@ -115,6 +137,10 @@ If you are actively engaged in Asian biobank, genomic, or precision-medicine col
 ## Contact
 
 Please join our google group at [MedHackathon Asia](https://groups.google.com/u/4/g/medhackathon-asia) or email the organizers at [admin-medhackathon-asia@googlegroups.com](mailto:admin-medhackathon-asia@googlegroups.com).
+
+<p align="center">
+<img src="images/asian-network.jpg" width="500" style="border-radius: 8px;" alt="Paper-cut artwork of interconnected Asian flowers, birds, and otters symbolizing regional collaboration">
+</p>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
