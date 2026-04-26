@@ -69,17 +69,22 @@ li::marker { color: #2D7D6E; }
 }
 .section-highlight h2 { margin-top: 0.5em !important; }
 
-/* Flex layouts */
-.side-by-side {
-  display: flex;
-  align-items: flex-start;
-  gap: 36px;
-  flex-wrap: wrap;
-  margin: 32px 0;
+/* Float-wrap images */
+.float-right {
+  float: right;
+  width: 45%;
+  margin: 8px 0 20px 28px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
-.side-by-side .text-col { flex: 1; min-width: 300px; }
-.side-by-side .img-col { min-width: 260px; }
-.side-by-side .img-col img { width: 100%; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+.float-left {
+  float: left;
+  width: 40%;
+  margin: 8px 28px 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+.clearfix::after { content: ""; display: table; clear: both; }
 
 /* CTA-style contact section */
 .cta-section {
@@ -106,7 +111,7 @@ li::marker { color: #2D7D6E; }
 @media (max-width: 768px) {
   .hero-banner { padding: 28px 20px 24px; }
   .hero-banner h1 { font-size: 1.8em !important; }
-  .side-by-side .img-col { flex: 0 0 100%; }
+  .float-right, .float-left { float: none; width: 100%; margin: 16px 0; }
   .section-highlight { padding: 18px 20px; }
 }
 
@@ -152,9 +157,7 @@ Asia holds the world's largest and most diverse population base, but genomic res
 
 MedHackathon Asia provides a working forum to address these gaps. The aim is not only to discuss policy, but to advance concrete, reusable frameworks for data discovery, secure analysis, and population-aware genomic interpretation.
 
-<!-- Focus areas + hacking image side-by-side -->
-<div class="side-by-side">
-<div class="text-col" markdown="1">
+<img src="images/hacking.jpg" class="float-right" alt="Paper-cut illustration of researchers working together on laptops">
 
 ## 2026 focus areas
 
@@ -182,11 +185,7 @@ The report highlights a set of ongoing and emerging workstreams that inform the 
 - Federated aggregated variant browsing across Asian cohorts
 - Imputation pipelines and servers for Thai, Japanese, and broader Asian reference panels
 
-</div>
-<div class="img-col" style="flex: 0 0 38%; padding-top: 24px;">
-<img src="images/hacking.jpg" alt="Paper-cut illustration of researchers working together on laptops">
-</div>
-</div>
+<div class="clearfix"></div>
 
 <div class="section-highlight" markdown="1">
 
@@ -215,12 +214,7 @@ July 27&ndash;31, 2026
 - **Thursday, July 30** — Hackathon working sessions, cross-team reporting
 - **Friday, July 31** — Wrap-up session, next-step planning
 
-<!-- Tea-break image + venue side-by-side -->
-<div class="side-by-side">
-<div class="img-col" style="flex: 0 0 33%;">
-<img src="images/tea-break.jpg" alt="Paper-cut illustration of a tea break with lanterns and kueh">
-</div>
-<div class="text-col" markdown="1">
+<img src="images/tea-break.jpg" class="float-left" alt="Paper-cut illustration of a tea break with lanterns and kueh">
 
 ## Venue
 
@@ -239,8 +233,7 @@ The meeting takes place at D'MARQUEE in Downtown East, Pasir Ris, Singapore. The
 
 D'Resort, co-located with D'MARQUEE at Downtown East, is the on-site option. Confirmed participants receive a list of alternative hotels nearby, with indicative travel times, in the registration confirmation email. Participants book their own rooms.
 
-</div>
-</div>
+<div class="clearfix"></div>
 
 ## Who should join
 
