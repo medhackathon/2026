@@ -1,22 +1,143 @@
-<!-- centering markdown images -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Crimson+Pro:wght@400;500;600;700&display=swap');
+
+/* Typography */
+body, .markdown-body {
+  font-family: 'Atkinson Hyperlegible', -apple-system, sans-serif !important;
+  color: #2C1810 !important;
+  line-height: 1.75 !important;
+  background: #FDF8F4 !important;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Crimson Pro', Georgia, serif !important;
+  color: #1a3a34 !important;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 2.4em !important; font-weight: 700 !important; }
+h2 { font-size: 1.6em !important; font-weight: 600 !important; border-bottom: 2px solid #d4c5b0 !important; padding-bottom: 8px !important; margin-top: 2em !important; }
+h3 { font-size: 1.2em !important; font-weight: 600 !important; color: #2D7D6E !important; border-bottom: none !important; }
+
+/* Links */
+a { color: #2D7D6E !important; text-decoration: none !important; border-bottom: 1px solid rgba(45, 125, 110, 0.3); transition: border-color 0.2s ease; }
+a:hover { border-bottom-color: #2D7D6E !important; }
+h1 a, h2 a, h3 a, p[align="center"] a { border-bottom: none !important; }
+
+/* Lists */
+ul { padding-left: 1.2em !important; }
+li { margin-bottom: 0.4em !important; }
+li::marker { color: #2D7D6E; }
+
+/* Hero area */
+.hero-banner {
+  background: linear-gradient(135deg, #1a3a34 0%, #2D7D6E 50%, #3a8a7a 100%);
+  color: #FDF8F4;
+  padding: 40px 30px 30px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 20px 0 30px;
+}
+.hero-banner h1 { color: #FDF8F4 !important; font-size: 2.6em !important; margin-bottom: 8px !important; border-bottom: none !important; }
+.hero-banner .hero-subtitle { font-size: 1.15em; opacity: 0.92; margin-bottom: 16px; font-family: 'Atkinson Hyperlegible', sans-serif; }
+.hero-banner .hero-date {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  padding: 8px 24px;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 1.05em;
+  letter-spacing: 0.02em;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+/* Supporter badge */
+.supporter-badge {
+  text-align: center;
+  margin: -10px 0 24px;
+  padding: 12px 0;
+}
+.supporter-badge img { vertical-align: middle; }
+.supporter-badge sub { color: #64748B; }
+
+/* Section containers */
+.section-highlight {
+  background: #f3efea;
+  border-radius: 10px;
+  padding: 24px 28px;
+  margin: 24px 0;
+}
+.section-highlight h2 { margin-top: 0.5em !important; }
+
+/* Flex layouts */
+.side-by-side {
+  display: flex;
+  align-items: flex-start;
+  gap: 36px;
+  flex-wrap: wrap;
+  margin: 32px 0;
+}
+.side-by-side .text-col { flex: 1; min-width: 300px; }
+.side-by-side .img-col { min-width: 260px; }
+.side-by-side .img-col img { width: 100%; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+
+/* CTA-style contact section */
+.cta-section {
+  background: linear-gradient(135deg, #1a3a34, #2D7D6E);
+  color: #FDF8F4;
+  padding: 28px 32px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 32px 0;
+}
+.cta-section h2 { color: #FDF8F4 !important; border-bottom: none !important; margin-top: 0.3em !important; }
+.cta-section a { color: #b8e6d8 !important; border-bottom-color: rgba(184, 230, 216, 0.4) !important; }
+.cta-section a:hover { border-bottom-color: #b8e6d8 !important; }
+
+/* Bottom illustration */
+.closing-art { text-align: center; margin: 40px 0 20px; }
+.closing-art img { border-radius: 10px; box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
+
+/* Schedule list styling */
+.schedule-grid { columns: 2; column-gap: 36px; }
+@media (max-width: 600px) { .schedule-grid { columns: 1; } }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-banner { padding: 28px 20px 24px; }
+  .hero-banner h1 { font-size: 1.8em !important; }
+  .side-by-side .img-col { flex: 0 0 100%; }
+  .section-highlight { padding: 18px 20px; }
+}
+
+/* Override theme containers if present */
+.container, .container-lg { max-width: 860px !important; }
+</style>
+
+<!-- Logo -->
 <p align="center">
-  <img width="200" src="images/MedHackathon_logo.png">
+  <img width="180" src="images/MedHackathon_logo.png" alt="MedHackathon Asia logo">
 </p>
 
-# MedHackathon Asia 2026
+<!-- Hero -->
+<div class="hero-banner">
+  <h1>MedHackathon Asia 2026</h1>
+  <div class="hero-subtitle">Advancing genomic and health data collaboration across Asia</div>
+  <div class="hero-date">July 27 &ndash; 31, 2026 &middot; Singapore</div>
+</div>
 
-MedHackathon Asia 2026 will be held in Singapore from July 27 to July 31, 2026.
-
-<p align="center">
+<!-- Supporter -->
+<div class="supporter-badge">
   <a href="https://www.npm.sg/">
-    <img width="160" src="images/PRECISE_logo.png" alt="PRECISE — Precision Health Research, Singapore">
+    <img width="140" src="images/PRECISE_logo.png" alt="PRECISE — Precision Health Research, Singapore">
   </a>
-</p>
+  <br>
+  <sub>Supported by <a href="https://www.npm.sg/">PRECISE — Precision Health Research, Singapore</a>.</sub>
+</div>
 
-<p align="center"><sub>Supported by <a href="https://www.npm.sg/">PRECISE — Precision Health Research, Singapore</a>.</sub></p>
-
+<!-- Banner illustration -->
 <p align="center">
-<img src="images/collaboration.jpg" style="width: 100%; max-width: 900px; border-radius: 8px;" alt="Paper-cut illustration of researchers collaborating around a table">
+<img src="images/collaboration.jpg" style="width: 100%; max-width: 900px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);" alt="Paper-cut illustration of researchers collaborating around a table">
 </p>
 
 ## Overview
@@ -31,8 +152,9 @@ Asia holds the world's largest and most diverse population base, but genomic res
 
 MedHackathon Asia provides a working forum to address these gaps. The aim is not only to discuss policy, but to advance concrete, reusable frameworks for data discovery, secure analysis, and population-aware genomic interpretation.
 
-<div style="display: flex; align-items: flex-start; gap: 30px; flex-wrap: wrap; margin: 30px 0;">
-<div style="flex: 1; min-width: 300px;" markdown="1">
+<!-- Focus areas + hacking image side-by-side -->
+<div class="side-by-side">
+<div class="text-col" markdown="1">
 
 ## 2026 focus areas
 
@@ -61,10 +183,12 @@ The report highlights a set of ongoing and emerging workstreams that inform the 
 - Imputation pipelines and servers for Thai, Japanese, and broader Asian reference panels
 
 </div>
-<div style="flex: 0 0 40%; min-width: 280px; padding-top: 30px;">
-<img src="images/hacking.jpg" style="width: 100%; border-radius: 8px;" alt="Paper-cut illustration of researchers working together on laptops">
+<div class="img-col" style="flex: 0 0 38%; padding-top: 24px;">
+<img src="images/hacking.jpg" alt="Paper-cut illustration of researchers working together on laptops">
 </div>
 </div>
+
+<div class="section-highlight" markdown="1">
 
 ## Expected outcomes
 
@@ -77,32 +201,26 @@ MedHackathon Asia 2026 is expected to support:
 - Clearer roadmaps for federated analysis, trusted research environments, and archive development
 - Continued momentum toward equitable precision medicine innovation grounded in Asian populations
 
+</div>
+
 ## Schedule
 
 **[The full schedule](https://github.com/medhackathon/2026/wiki/Schedule) will be published here.**
 
-July 27-31, 2026
+July 27&ndash;31, 2026
 
-- Monday, July 27
-  - Opening session
-  - Community updates and framing talks
-- Tuesday, July 28
-  - Tutorials
-  - Project breakout sessions
-- Wednesday, July 29
-  - Hackathon working sessions
-- Thursday, July 30
-  - Hackathon working sessions
-  - Cross-team reporting
-- Friday, July 31
-  - Wrap-up session
-  - Next-step planning
+- **Monday, July 27** — Opening session, community updates and framing talks
+- **Tuesday, July 28** — Tutorials, project breakout sessions
+- **Wednesday, July 29** — Hackathon working sessions
+- **Thursday, July 30** — Hackathon working sessions, cross-team reporting
+- **Friday, July 31** — Wrap-up session, next-step planning
 
-<div style="display: flex; align-items: flex-start; gap: 30px; flex-wrap: wrap; margin: 30px 0;">
-<div style="flex: 0 0 35%; min-width: 260px;">
-<img src="images/tea-break.jpg" style="width: 100%; border-radius: 8px;" alt="Paper-cut illustration of a tea break with lanterns and kueh">
+<!-- Tea-break image + venue side-by-side -->
+<div class="side-by-side">
+<div class="img-col" style="flex: 0 0 33%;">
+<img src="images/tea-break.jpg" alt="Paper-cut illustration of a tea break with lanterns and kueh">
 </div>
-<div style="flex: 1; min-width: 300px;" markdown="1">
+<div class="text-col" markdown="1">
 
 ## Venue
 
@@ -134,13 +252,19 @@ MedHackathon Asia 2026 is a small working meeting, and venue capacity is limited
 
 If you are actively engaged in Asian biobank, genomic, or precision-medicine collaboration and would like to take part, please reach out through the [contacts below](#contact). The registration form will be shared with prospective participants as it opens.
 
+<!-- Contact CTA -->
+<div class="cta-section" markdown="1">
+
 ## Contact
 
-Please join our google group at [MedHackathon Asia](https://groups.google.com/u/4/g/medhackathon-asia) or email the organizers at [admin-medhackathon-asia@googlegroups.com](mailto:admin-medhackathon-asia@googlegroups.com).
+Please join our Google group at [MedHackathon Asia](https://groups.google.com/u/4/g/medhackathon-asia) or email the organizers at [admin-medhackathon-asia@googlegroups.com](mailto:admin-medhackathon-asia@googlegroups.com).
 
-<p align="center">
-<img src="images/asian-network.jpg" width="500" style="border-radius: 8px;" alt="Paper-cut artwork of interconnected Asian flowers, birds, and otters symbolizing regional collaboration">
-</p>
+</div>
+
+<!-- Closing artwork -->
+<div class="closing-art">
+<img src="images/asian-network.jpg" width="480" alt="Paper-cut artwork of interconnected Asian flowers, birds, and otters symbolizing regional collaboration">
+</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
