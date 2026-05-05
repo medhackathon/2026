@@ -142,7 +142,7 @@ li::marker { color: #2D7D6E; }
 
 MedHackathon Asia is a regional meeting for researchers, clinicians, bioinformaticians, data stewards, and precision medicine leaders working to strengthen genomic and health data collaboration across Asia.
 
-The 2026 edition builds on the discussions and project outcomes documented after MedHackathon Asia 2025. The shared objective is to unlock the scientific and clinical value of Asian genomic diversity through practical collaboration on biobanks, data standards, computational workflows, and responsible governance.
+The 2026 edition builds on the discussions and project outcomes documented after [MedHackathon Asia 2025](https://medhackathon.github.io/2025/). The shared objective is to unlock the scientific and clinical value of Asian genomic diversity through practical collaboration on biobanks, data standards, computational workflows, and responsible governance.
 
 <p align="center">
 <img src="images/collaboration.jpg" style="width: 100%; max-width: 900px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);" alt="Paper-cut illustration of researchers collaborating around a table">
