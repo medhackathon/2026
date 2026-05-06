@@ -156,7 +156,7 @@ MedHackathon Asia provides a working forum to address these gaps. The aim is not
 
 ## MedHackathon Asia 2025
 
-The first edition of MedHackathon Asia was held in February 2025 at Burapha University, Chonburi, Thailand, bringing together researchers from seven jurisdictions — Thailand, Japan, Singapore, South Korea, Hong Kong, Indonesia, and India. Participants worked across project tracks including the Asian Pangenome Initiative, genome-phenome archive development, variant analysis harmonization, pharmacogenomics, federated research environments, and data governance. A report summarizing the outcomes is in preparation. See the [MedHackathon Asia 2025 website](https://medhackathon.github.io/2025/) for details.
+The first edition of MedHackathon Asia was held in February 2025 at Burapha University, Chonburi, Thailand, bringing together researchers from seven jurisdictions — Thailand, Japan, Singapore, South Korea, Hong Kong, Indonesia, and India. Participants worked across project tracks including the Asian Pangenome Initiative, genome-phenome archive development, variant analysis harmonization, pharmacogenomics, federated research environments, and data governance. The outcomes are published in: The MedHackathon Asia Community, "Unlocking the Potential of Asian Genomic Data: A Collaborative Framework for Precision Medicine Innovation," *GigaScience*, 2026 ([doi:10.1093/gigascience/giag052](https://doi.org/10.1093/gigascience/giag052)). See also the [MedHackathon Asia 2025 website](https://medhackathon.github.io/2025/).
 
 <img src="images/hacking.jpg" class="float-right" alt="Paper-cut illustration of researchers working together on laptops">
 
