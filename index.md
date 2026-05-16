@@ -246,6 +246,10 @@ MedHackathon Asia 2026 is a small working meeting, and venue capacity is limited
 
 If you are actively engaged in Asian biobank, genomic, or precision-medicine collaboration and would like to take part, please reach out through the [contacts below](#contact). The registration form will be shared with prospective participants as it opens.
 
+## Sponsorship
+
+MedHackathon Asia 2026 welcomes organizational sponsorship to support participant travel grants, sponsored sessions, and event operations. Two tiers (Gold and Silver) are available — see the [sponsorship page](https://github.com/medhackathon/2026/wiki/Sponsorship) for full benefits and details, or reach out via the [contacts below](#contact).
+
 <!-- Contact CTA -->
 <div class="cta-section" markdown="1">
 
