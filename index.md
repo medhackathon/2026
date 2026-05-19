@@ -244,7 +244,11 @@ This event is intended for participants working in human genetics, medical infor
 
 MedHackathon Asia 2026 is a small working meeting, and venue capacity is limited. Participation is therefore by invitation and review: the organizing committee shares the registration form through country contacts and community channels, and every registration is reviewed before a seat is confirmed.
 
-If you are actively engaged in Asian biobank, genomic, or precision-medicine collaboration and would like to take part, please reach out through the [contacts below](#contact). The registration form will be shared with prospective participants as it opens.
+If you are actively engaged in Asian biobank, genomic, or precision-medicine collaboration and would like to take part, please submit the registration form below. For any questions, please reach out through the [contacts below](#contact).
+
+<p style="text-align: center; margin: 28px 0;">
+  <a href="https://forms.gle/WcKWEFwJk8w3P3e79" style="display: inline-block; padding: 14px 36px; background: #2D7D6E; color: #FDF8F4 !important; border-radius: 8px; font-weight: 700; font-size: 1.1em; text-decoration: none; border-bottom: none !important; box-shadow: 0 2px 12px rgba(45, 125, 110, 0.25);">Open the registration form &rarr;</a>
+</p>
 
 ## Sponsorship
 
