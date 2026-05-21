@@ -219,10 +219,10 @@ July 27&ndash;31, 2026
 
 ## Venue
 
-**D'MARQUEE at Downtown East**
+**Begonia Pavilion at Downtown East**
 1 Pasir Ris Close, Singapore 519599
 
-The meeting takes place at D'MARQUEE in Downtown East, Pasir Ris, Singapore. The venue is locally hosted by PRECISE (Precision Health Research, Singapore). Attendee check-in is at the venue reception on Monday 27 July from 12:00.
+The meeting takes place at Begonia Pavilion in Downtown East, Pasir Ris, Singapore. The venue is locally hosted by PRECISE (Precision Health Research, Singapore). Attendee check-in is at the venue reception on Monday 27 July from 12:00.
 
 ### Getting there
 
@@ -232,7 +232,7 @@ The meeting takes place at D'MARQUEE in Downtown East, Pasir Ris, Singapore. The
 
 ## Accommodation
 
-D'Resort, co-located with D'MARQUEE at Downtown East, is the on-site option. Confirmed participants receive a list of alternative hotels nearby, with indicative travel times, in the registration confirmation email. Participants book their own rooms.
+D'Resort, co-located with Begonia Pavilion at Downtown East, is the on-site option. Confirmed participants receive a list of alternative hotels nearby, with indicative travel times, in the registration confirmation email. Participants book their own rooms.
 
 <div class="clearfix"></div>
 
