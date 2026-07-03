@@ -246,7 +246,7 @@ This event is intended for participants working in human genetics, medical infor
 
 MedHackathon Asia 2026 is a small working meeting, and venue capacity is limited. Participation is by invitation and review: the organizing committee shares the registration form through country contacts and community channels, and every registration is reviewed before a seat is confirmed.
 
-If you missed this round and would still like to be considered for any late-opening seats, or want to be kept in the loop for future editions, please reach out through the [contacts below](#contact).
+If you missed this round and would still like to be considered for a seat, please fill in the [waitlist form](https://forms.gle/Q6VMq5EzuiPbcrJaA). The organizing committee will contact you only if a seat opens (for example, a confirmed participant withdraws). For general questions, or to be kept in the loop for future editions, please reach out through the [contacts below](#contact).
 
 ## Sponsorship
 
