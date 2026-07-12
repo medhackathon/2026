@@ -60,6 +60,8 @@ li::marker { color: #2D7D6E; }
 }
 .supporter-badge img { vertical-align: middle; }
 .supporter-badge sub { color: #64748B; }
+.supporter-badge .sponsor-tier { margin-top: 18px; }
+.supporter-badge .sponsor-tier img { margin-bottom: 4px; }
 
 /* Section containers */
 .section-highlight {
@@ -136,6 +138,13 @@ li::marker { color: #2D7D6E; }
   </a>
   <br>
   <sub>Supported by <a href="https://www.npm.sg/">PRECISE — Precision Health Research, Singapore</a>.</sub>
+  <div class="sponsor-tier">
+    <a href="https://aws.amazon.com/">
+      <img width="150" src="images/AWS_logo.png" alt="Amazon Web Services (AWS)">
+    </a>
+    <br>
+    <sub>Silver Sponsor — <a href="https://aws.amazon.com/">Amazon Web Services (AWS)</a>.</sub>
+  </div>
 </div>
 
 ## Overview
