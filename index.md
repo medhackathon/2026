@@ -241,7 +241,7 @@ The meeting takes place at Begonia Pavilion in Downtown East, Pasir Ris, Singapo
 
 ## Accommodation
 
-D'Resort, co-located with Begonia Pavilion at Downtown East, is the on-site option. Confirmed participants receive a list of alternative hotels nearby, with indicative travel times, in the registration confirmation email. Participants book their own rooms.
+D'Resort, co-located with Begonia Pavilion at Downtown East, is the on-site option. A list of nearby alternative hotels, with indicative travel times and nearest MRT stations, is on our [accommodation page](https://github.com/medhackathon/2026/wiki/Accommodation). Participants book their own rooms.
 
 <div class="clearfix"></div>
 
